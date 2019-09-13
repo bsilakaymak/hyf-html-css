@@ -835,6 +835,10 @@ align-items: center;}
         padding: 0.1rem;
     }
 }
+@media screen and (min-width:1180px) and (max-width:1320px){
+     .hidden-nav{
+         margin-left: 44%;}
+}
 
 
 
