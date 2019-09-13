@@ -739,6 +739,9 @@ align-items: center;}
     .social-media{
     text-align:left;
     }
+    .social-media i{
+     font-size:0.5rem;
+    } 
     .lastpart{
     display: flex;
     flex-direction: column;
