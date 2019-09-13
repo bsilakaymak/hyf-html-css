@@ -708,7 +708,7 @@ align-items: center;}
     display: flex;
     }
     .tool-image img{
-  width: 10rem;
+  width: 8rem;
     }
     .link-wrapper{
     display: flex;
@@ -718,6 +718,7 @@ align-items: center;}
     display: flex;
     flex-direction: column;
     margin-left:0.5rem;
+     font-size:.8rem
     }
     .learn-more{
     position: static;
