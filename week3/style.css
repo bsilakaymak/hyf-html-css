@@ -378,8 +378,9 @@ h3{
     box-sizing: border-box;
     padding:1%;
     -webkit-box-shadow: 2px 2px 4px -2px rgba(122, 113, 122, 0.36);
-    -moz-box-shadow: 2px 2px 4px -2px rgba(122, 113, 122, 0.36);;
-    box-shadow: 2px 2px 4px -2px rgba(122, 113, 122, 0.36);;
+    -moz-box-shadow: 2px 2px 4px -2px rgba(122, 113, 122, 0.36);
+    box-shadow: 2px 2px 4px -2px rgba(122, 113, 122, 0.36);
+    transition: box-shadow .2s cubic-bezier(.4,0,.2,1);
 }
 
 .title{
