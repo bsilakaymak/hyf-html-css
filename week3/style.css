@@ -671,10 +671,6 @@ align-items: center;}
     .first, .last{
     height: 18rem;
     }
-    .first p,.last p{
-    padding: 10rem 1rem 0 1rem;
-    margin: 10 rem 1rem 0 1rem;
-    } 
     .news{
     width:95%;
     margin-top:2.4%;
@@ -730,7 +726,7 @@ align-items: center;}
     }
     .learn-more{
     position: static;
-    padding-right:1.2rem;
+    padding-right:1.5rem;
     }
     .google-terms{
     flex-direction: column;
