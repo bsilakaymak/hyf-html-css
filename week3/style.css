@@ -459,6 +459,10 @@ h3{
     font-size:1.25rem;
     padding-right:0.5rem;
 }
+
+.consumer-insights ul li:nth-child(1){
+    line-height:1.5;
+} 
 .marketer-tools{
     display: flex;
     flex-wrap: wrap;
@@ -703,9 +707,6 @@ align-items: center;}
     display: flex;
     flex-direction: column;
     }
-    .consumer-insights ul li:nth-child(1){
-    line-height:1.5;
-    } 
     .tool{
     width: 98%;
     flex-direction: row;
