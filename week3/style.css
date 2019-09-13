@@ -797,7 +797,11 @@ align-items: center;}
 
     }
     .video-link{
+        margin-top:1.25rem;
         height: 16rem;
+    }
+    .video-link span{
+        margin:1rem 0 0.5rem 0.5rem;
     }
     .first, .last{
         width:97.5% !important;
