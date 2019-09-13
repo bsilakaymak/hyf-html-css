@@ -728,7 +728,7 @@ align-items: center;}
     .learn-more{
     position: static;
     padding-right:0.75rem;
-    padding-left:0;
+    padding-left:0.55rem;
     }
     .google-terms{
     flex-direction: column;
