@@ -172,11 +172,11 @@ h3{
 } 
 /* hamb menu try -ends   */
 
- /* Dropdown menu trying stuff */
+ /* Dropdown menu, trying stuff */
 .drop-button {
     background-color: #FFFFFF;
     color: #424242;
-    padding-left: 1rem;
+    padding: 1rem;
     font-size: 1rem;
     font-weight: 500;
     border: none;
