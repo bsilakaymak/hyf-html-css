@@ -737,11 +737,13 @@ align-items: center;}
     padding: 0;
     }
     .social-media{
-    text-align:left;
+     text-align:left;
+     padding-left:1.75rem;
     }
     .social-media i{
-     font-size:0.45rem;
+     font-size:0.75rem;
      width :100%;
+     
     } 
     .lastpart{
      display: flex;
