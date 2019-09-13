@@ -740,11 +740,6 @@ align-items: center;}
      text-align:left;
      padding-left:1.75rem;
     }
-    .social-media i{
-     font-size:1.25rem;
-     width :100%;
-     
-    } 
     .lastpart{
      display: flex;
      flex-direction: column;
