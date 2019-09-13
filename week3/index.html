@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Top container with logo, navigation, quote etc. -->
+  <div class="topcontainer">
+    <header>
+       <div class="logo">
+          <div class="thinkwithgoogle-logo">
+          <div class="hamburger-menu desktop-hidden">
+                <div class="finalwrap">
+                 <input id="hambmenu" type="checkbox"></input>
+                 <label for="hambmenu" class="hamburger">
+                    <div class="firstrect"></div>
+                    <div class="secondrect"></div>
+                    <div class="thirdrect"></div>
+                 </label>
+                <div class="nav">
+                  <div class="wrapper">
+                  <nav>
+                        <a href="" class="border-bottom opacity-effect"> Consumer Insights </a><br>
+                        <span style="border-bottom:1px solid #424242;"></span>
+                        <a href="" class="opacity-effect"> Marketing Resources </a><br>
+                        <a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/" class="opacity-effect"> Data & Measurement </a><br>
+                        <a href="https://www.thinkwithgoogle.com/marketing-resources/experience-design/" class="opacity-effect"> Experience & Design </a><br>
+                        <a href="thinkwithgoogle.com/marketing-resources/monetization/" class="opacity-effect"> Monetization </a><br>
+                        <a href="https://www.thinkwithgoogle.com/marketing-resources/omnichannel/" class="opacity-effect"> Omnichannel </a><br>
+                        <a href="https://www.thinkwithgoogle.com/marketing-resources/organizational-culture/" class="opacity-effect"> Organizational Culture </a><br>
+                        <a href="https://www.thinkwithgoogle.com/marketing-resources/programmatic/" class="border-bottom opacity-effect"> Programmatic Advertising </a><br>
+                        <a href="https://www.thinkwithgoogle.com/tools/" class="opacity-effect"> Tools </a><br>
+                        <a href="https://www.thinkwithgoogle.com/marketing-resources/tutorials/" class="opacity-effect"> Tutorials </a><br>
+                        <a href="https://www.thinkwithgoogle.com/advertising-channels/" class="opacity-effect"> Advertising Channels </a><br>
+                        <a href="https://www.thinkwithgoogle.com/advertising-channels/emerging-technology/" class="opacity-effect"> Emerging Technology </a><br>
+                        <a href="https://www.thinkwithgoogle.com/advertising-channels/mobile-marketing/" class="opacity-effect"> Mobile </a><br>
+                        <a href="https://www.thinkwithgoogle.com/advertising-channels/search/" class="opacity-effect"> Search </a><br>
+                        <a href="https://www.thinkwithgoogle.com/advertising-channels/video/" class="opacity-effect"> YouTube </a><br>
+                  </nav>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <img src="/images/twg-logo-large.png" alt="twg-logo">
+
+          </div>
+        </div>
+        <div class="white-lang mobile-hidden">
+                <select name="languages mobile-hidden">
+                  <option value="English-US">English - United States</option>
+                  <option value="English-N-B">English Nordics & Benelux</option>
+                  <option value="Italiano">Italiano - Italia</option>
+                  <option value="Turkce">Türkçe - Türkiye</option>
+                  <option value="Francais">Français - France</option>
+                </select>
+          </div>
+        <div class="hidden-nav mobile-hidden small-desktop-hidden">
+            <div class="hid-nav-container">
+                    <div class="whole-dropdown">
+                            <button class="drop-button">Consumer Insights<i class="fas fa-chevron-down" style="opacity: 0;"></i></button>
+                          </div>
+                          
+                          <div class="whole-dropdown">
+                            <button class="drop-button">Marketing Resources<i class="fas fa-chevron-down"></i></button>
+                            <div class="hidden-dropdown">
+                              <a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/">Data & Measurement</a>
+                              <a href="https://www.thinkwithgoogle.com/marketing-resources/experience-design/">Experience & Design</a>
+                              <a href="thinkwithgoogle.com/marketing-resources/monetization/">Monetization</a>
+                              <a href="https://www.thinkwithgoogle.com/marketing-resources/omnichannel/">Omnichannel</a>
+                              <a href="https://www.thinkwithgoogle.com/marketing-resources/organizational-culture/">Organizational Culture</a>
+                              <a href="https://www.thinkwithgoogle.com/marketing-resources/programmatic/" class="border-bottom">Programmatic Advertising</a>
+                              <a href="https://www.thinkwithgoogle.com/tools/">Tools</a>
+                              <a href="https://www.thinkwithgoogle.com/marketing-resources/tutorials/">Tutorials</a>
+
+                            </div>
+                          </div>
+                          
+                          <div class="whole-dropdown">
+                            <button class="drop-button">Advertising Channels<i class="fas fa-chevron-down"></i></button>
+                            <div class="hidden-dropdown">
+                              <a href="https://www.thinkwithgoogle.com/advertising-channels/emerging-technology/">Emerging Technology</a>
+                              <a href="https://www.thinkwithgoogle.com/advertising-channels/mobile-marketing/">Mobile</a>
+                              <a href="https://www.thinkwithgoogle.com/advertising-channels/search/">Search</a>
+                              <a href="https://www.thinkwithgoogle.com/advertising-channels/video/">Youtube</a>
+                            </div>
+                          </div>
+                
+       
+            </div>
+        </div>
+        <div class="searchbar phone-hidden" style="z-index: 500">
+          <input id="src-btn" type="checkbox"></input>
+                 <label for="src-btn" class="search-button"><i class="fas fa-search"></i>
+                 </label>
+          
+          <div class="search mobile-hidden">
+            <div class="wrapper">
+                <header>
+                    <div class="logo">
+                       <div class="thinkwithgoogle-logo">
+                       <div class="hamburger-menu desktop-hidden">
+                             <div class="finalwrap">
+                              <input id="hambmenu" type="checkbox"></input>
+                              <label for="hambmenu" class="hamburger">
+                                 <div class="firstrect"></div>
+                                 <div class="secondrect"></div>
+                                 <div class="thirdrect"></div>
+                              </label>
+                             <div class="nav">
+                               <div class="wrapper">
+                               <nav>
+                                     <a href="" class="border-bottom opacity-effect"> Consumer Insights </a><br>
+                                     <span style="border-bottom:1px solid #424242;"></span>
+                                     <a href="" class="opacity-effect"> Marketing Resources </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/" class="opacity-effect"> Data & Measurement </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/marketing-resources/experience-design/" class="opacity-effect"> Experience & Design </a><br>
+                                     <a href="thinkwithgoogle.com/marketing-resources/monetization/" class="opacity-effect"> Monetization </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/marketing-resources/omnichannel/" class="opacity-effect"> Omnichannel </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/marketing-resources/organizational-culture/" class="opacity-effect"> Organizational Culture </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/marketing-resources/programmatic/" class="border-bottom opacity-effect"> Programmatic Advertising </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/tools/" class="opacity-effect"> Tools </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/marketing-resources/tutorials/" class="opacity-effect"> Tutorials </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/advertising-channels/" class="opacity-effect"> Advertising Channels </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/advertising-channels/emerging-technology/" class="opacity-effect"> Emerging Technology </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/advertising-channels/mobile-marketing/" class="opacity-effect"> Mobile </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/advertising-channels/search/" class="opacity-effect"> Search </a><br>
+                                     <a href="https://www.thinkwithgoogle.com/advertising-channels/video/" class="opacity-effect"> YouTube </a><br>
+                               </nav>
+                               </div>
+                             </div>
+                         </div>
+                       </div>
+                       <img src="/images/twg-logo-large.png" alt="twg-logo">
+             
+                       </div>
+                     </div>
+                     <div class="mobile-hidden bg-color-new">
+                             <select name="languages mobile-hidden">
+                               <option value="English-US">English - United States</option>
+                               <option value="English-N-B">English Nordics & Benelux</option>
+                               <option value="Italiano">Italiano - Italia</option>
+                               <option value="Turkce">Türkçe - Türkiye</option>
+                               <option value="Francais">Français - France</option>
+                             </select>
+                       </div>
+                     <div class="hidden-nav mobile-hidden small-desktop-hidden">
+                         <div class="hid-nav-container" style="padding-top: 1.2rem;">
+                                 <div class="whole-dropdown">
+                                         <button class="drop-button" style="background-color: #EEEEEE">Consumer Insights</button>
+                                       </div>
+                                       
+                                       <div class="whole-dropdown">
+                                         <button class="drop-button" style="background-color: #EEEEEE">Marketing Resources</button>
+                                         <div class="hidden-dropdown">
+                                           <a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/">Data & Measurement</a>
+                                           <a href="https://www.thinkwithgoogle.com/marketing-resources/experience-design/">Experience & Design</a>
+                                           <a href="thinkwithgoogle.com/marketing-resources/monetization/">Monetization</a>
+                                           <a href="https://www.thinkwithgoogle.com/marketing-resources/omnichannel/">Omnichannel</a>
+                                           <a href="https://www.thinkwithgoogle.com/marketing-resources/organizational-culture/">Organizational Culture</a>
+                                           <a href="https://www.thinkwithgoogle.com/marketing-resources/programmatic/" class="border-bottom">Programmatic Advertising</a>
+                                           <a href="https://www.thinkwithgoogle.com/tools/">Tools</a>
+                                           <a href="https://www.thinkwithgoogle.com/marketing-resources/tutorials/">Tutorials</a>
+             
+                                         </div>
+                                       </div>
+                                       
+                                       <div class="whole-dropdown">
+                                         <button class="drop-button" style="background-color: #EEEEEE">Advertising Channels</button>
+                                         <div class="hidden-dropdown">
+                                           <a href="https://www.thinkwithgoogle.com/advertising-channels/emerging-technology/">Emerging Technology</a>
+                                           <a href="https://www.thinkwithgoogle.com/advertising-channels/mobile-marketing/">Mobile</a>
+                                           <a href="https://www.thinkwithgoogle.com/advertising-channels/search/">Search</a>
+                                           <a href="https://www.thinkwithgoogle.com/advertising-channels/video/">Youtube</a>
+                                         </div>
+                                       </div>
+                             
+                    
+                         </div>
+                     </div>
+                     
+                   
+                 </header>
+            <div class="custom-search">
+              <input type="text" placeholder="Search Think with Google"><i class="fas fa-search"></i>
+            </div>
+            </div>
+          </div>
+        </div>
+      
+    </header>
+    <!-- jumbotron kinda thing -->
+    <div class="leftright">
+      <div class="left">
+        <h1>Insights you want.<br>Inspiration you need.</h1>
+        <p class="mobile-hidden">Stay on top of the latest and greatest</p>
+        <div class="subs-button-blue mobile-hidden opacity-effect">
+          <a href="https://getsubscriptions.withgoogle.com/newsletter/signup/landing/?slug=thinkwithgoogle">Subscribe</a>
+        </div>
+      </div>
+
+      <div class="right mobile-hidden">
+        <a href="https://www.thinkwithgoogle.com/feature/testmysite/"><p>
+            Get your site up to speed with the new Test My Site.
+            Enter your domain now for customized tips and fixes.<i class="fas fa-arrow-circle-right"></i></p></a>
+      </div>
+      </div>
+    </div>
+
+    <!-- Stories news etc -->
+    <h2 class="stories-title mobile-hidden">Latest trends and stories</h2>
+    <div class="stories">
+      <div class="news first">
+          <a href="https://www.thinkwithgoogle.com/consumer-insights/google-doodle-history/">
+              <div class="video-link">
+                  <p>Inside Google Marketing: How the Google Doodle helps us connect with people around the world</p>
+                  <span>Video - August 2019</span>
+              </div>
+          </a>
+      </div>
+      <div class="news">
+          <a href="https://www.thinkwithgoogle.com/advertising-channels/programmatic-linear-tv/">
+            <div class="link-wrapper">
+              <div class="image"><img src="/images/rsm1.png" alt="tv-pic"></div>
+              <div class="title-and-details">
+                <div class="title"><h4>Why one media buyer is embracing programmatic linear TV</h4></div>
+                <div class="details"><i class="fas fa-comment-alt"></i><span>Interview - September 2019</span></div>
+              </div>
+            </div>
+          </a>
+      </div>
+
+      <div class="news">
+          <a href="https://www.thinkwithgoogle.com/advertising-channels/video/in-store-video-shopping-behavior/">
+            <div class="link-wrapper">
+              <div class="image"><img src="/images/rsm2.png" alt="man-with-phone-pic"></div>
+              <div class="title-and-details">
+                <div class="title"><h4>3 unexpected ways <br> shoppers turn to<br> video in the store aisle</h4></div>
+                <span class="mobile-hide"></span>
+                <div class="details">Article - August 2019</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/nordstrom-measurement-strategy/">
+            <div class="link-wrapper">
+              <div class="image"><img src="/images/rsm3.png" alt="scales"></div>
+              <div class="title-and-details">
+                <div class="title"><h4>You can’t achieve the right business outcomes without the right measurement</h4></div>
+                <div class="details">Article - August 2019</div>
+            </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="https://www.thinkwithgoogle.com/marketing-resources/monetization/retail-advertising-revenue-strategy/">
+              <div class="link-wrapper">
+                <div class="image"><img src="/images/rsm4.png" alt="web-page-photo"></div>
+                <div class="title-and-details">
+                  <div class="title"><h4>Why online retailers should embrace advertising across digital storefronts</h4></div>
+                  <div class="details">Article - August 2019</div>
+                </div>
+              </div>
+           </a>
+        </div>
+        <div class="news last">
+                <a href="https://www.thinkwithgoogle.com/advertising-channels/video/holiday-customer-journey/">
+                    <div class="video-link">
+                      <p>How to be a step ahead of today’s consumer journey</p>
+                      <span>Video - August 2019</span>
+                    </div>
+                </a>
+              </div>
+         
+        </div>
+     
+    </div>
+    <!-- Second section with a lighter background -->
+  <div class="lightgray">
+      <!-- Three blocks of lists -->
+      <h3>Take a deeper dive</h3>
+      <div class="deeper-dive">
+        <div class="marketing-resources inblock">
+          <span>Marketing Resources</span> <img src="/images/icon_resources-01.svg" style="width: 20px; padding-top:4px;" alt="icon-target">
+            <ul>
+                <li><a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/" class="opacity-effect">Data Analytics & Measurement</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/marketing-resources/experience-design/" class="opacity-effect">User Experience & Design</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/advertising-channels/mobile-marketing/" class="opacity-effect">Mobile</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/marketing-resources/omnichannel/" class="opacity-effect">Omnichannel</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/marketing-resources/programmatic/" class="opacity-effect">Programmatic Advertising</a></li>
+            </ul>
+        </div>
+        <div class="advertising-channels inblock">
+            <span>Advertising Channels</span><img src="/images/icon_marketingstrategies-01.svg" style="width: 20px" alt="icon-arrow">
+            <ul>
+                <li><a href="https://www.thinkwithgoogle.com/advertising-channels/emerging-technology/" class="opacity-effect">Emerging & Assistive Technology</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/advertising-channels/search/" class="opacity-effect">Search</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/advertising-channels/video/" class="opacity-effect">Marketing on YouTube</a></li>
+            </ul>
+        </div>
+        <div class="consumer-insights inblock">
+            <span>Consumer Insights</span><img src="/images/icon_consumerinsights-01.svg" style="width: 20px;" alt="icon-bag">
+            <ul>
+                <li>Learn about consumer trends, from how people are using apps to video consumption on mobile.</li>
+                <li><a href="https://www.thinkwithgoogle.com/consumer-insights/" class="opacity-effect">Consumer Insights</a></li>
+            </ul>
+        </div>
+      </div>
+      <!-- Final Content with marketing tools -->
+      <h3>Tools for marketers</h3>
+      <div class="marketer-tools">
+         <div class="tool">
+            <a href="https://www.thinkwithgoogle.com/tools/culture-trends/">
+              <div class="link-wrapper">
+                <div class="tool-image"><img src="/images/rsm5.png" alt="magnifier-img"></div>
+                <div class="info-wrapper">
+                  <div class="title"><h4>Culture & Trends</h4></div>
+                  <div class="ttext">
+                      <p>I want to find what my potential customers are engaging with and searching for.</p></div>
+                  <div class="learn-more opacity-effect">Learn More</div>
+                </div>
+              </div>
+            </a>
+         </div>
+         <div class="tool">
+            <a href="https://www.thinkwithgoogle.com/tools/competitive-analysis/">
+              <div class="link-wrapper">
+                <div class="tool-image"><img src="/images/rsm6.png" alt="scale"></div>
+                <div class="info-wrapper">
+                <div class="title"><h4>Competitive Analysis</h4></div>
+                <div class="ttext"><p>I want to see how my brand compares against industry benchmarks.</p></div>
+                <div class="learn-more opacity-effect">Learn More</div></div>
+              </div>
+            </a>
+         </div>
+         <div class="tool">
+            <a href="https://www.thinkwithgoogle.com/tools/consumer-insights/">
+              <div class="link-wrapper">
+                <div class="tool-image"><img src="/images/rsm7.png" alt="food-basket"></div>
+                <div class="info-wrapper">
+                <div class="title"><h4>Consumer Insights</h4></div>
+                <div class="ttext"><p>I want to make better decisions about my marketing campaigns and ad spending.</p></div>
+                <div class="learn-more opacity-effect">Learn More</div></div>
+              </div>
+            </a>
+         </div>
+         <div class="tool">
+            <a href="https://www.thinkwithgoogle.com/tools/diagnostics-benchmarks/">
+              <div class="link-wrapper">
+                <div class="tool-image"><img src="/images/rsm8.png" alt="stethoscope"></div>
+                <div class="info-wrapper">
+                <div class="title"><h4>Diagnostic Tools & Industry Benchmarks</h4></div>
+                <div class="ttext"><p>I want to measure my brand's performance and get tips on improving key metrics.</p></div>
+                <div class="learn-more opacity-effect">Learn More</div></div>
+              </div>
+            </a>
+         </div>
+      </div>
+       <!-- See All Tools Button -->
+      <div class="tool-button opacity-effect">
+          <a href="https://www.thinkwithgoogle.com/tools/">See All Tools</a>
+      </div>
+   </div>
+   <!-- footer starts here -->
+   <footer>
+        <div class="subscribe">
+            <p class="getnews">Get the latest data, insights, and inspiration from Google.</p>
+            <div id="subs-button" class="opacity-effect"><a href="https://getsubscriptions.withgoogle.com/newsletter/signup/landing/?slug=thinkwithgoogle">Subscribe</a></div>
+        </div>
+
+        <div class="google-terms">
+            
+            <div class="google opacity-effect"> <a href="https://www.google.com"><img src="/images/google_footer.png" alt="google-logo-white"></a> </div>
+
+            <ul>
+                <li><a href="https://about.google" class="opacity-effect">About Google</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/products/" class="opacity-effect">Products</a></li>
+                <li><a href="" class="opacity-effect">Advertising</a></li>
+                <li><a href="#" class="opacity-effect">Business</a></li>
+                <li><a href="https://policies.google.com/privacy" class="opacity-effect">Privacy & Terms</a></li>
+                <li><a href="https://www.thinkwithgoogle.com/about/" class="opacity-effect">About Think with Google</a></li>
+            </ul>
+        </div>
+
+        <div class="lastpart">
+          <div class="language"><div class="custom-lang">
+                <select name="languages">
+                  <option value="English-US">English - United States</option>
+                  <option value="English-N-B">English Nordics & Benelux</option>
+                  <option value="Italiano">Italiano - Italia</option>
+                  <option value="Turkce">Türkçe - Türkiye</option>
+                  <option value="Francais">Français - France</option>
+                </select>
+              </div></div>
+          <div class="social-media">
+            <ul>
+                <li><a href="https://www.linkedin.com/showcase/think-with-google" class="opacity-effect"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/ThinkwithGoogle" class="opacity-effect"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/ThinkwithGoogle/" class="opacity-effect"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://www.youtube.com/thinkwithgoogle" class="opacity-effect"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://feeds.feedburner.com/google/think" class="opacity-effect"><i class="fas fa-rss"></i></a></li>
+            </ul>
+          </div>
+        </div>
+   </footer>
+</body>
+</html>
