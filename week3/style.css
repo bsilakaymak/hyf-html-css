@@ -689,6 +689,10 @@ align-items: center;}
     }
     .video-link{
      height: 14rem;
+     margin-top:3rem;
+    }
+    .video-link span{
+     margin:0 0 0.5rem 0;
     }
     .info-wrapper{
      padding: 0;
