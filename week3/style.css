@@ -786,6 +786,7 @@ align-items: center;}
     .left h1{
         padding-bottom: 3rem;
         margin-top:2rem;
+        padding-left:0.43rem;
     }
     .left{
         padding: 0.2em 0 0 0;
