@@ -10,4 +10,20 @@ self.addEventListener("install", (e) => {
   );
 });
 
-self.addEventListener("activate", () => console.log("activated"));
+self.addEventListener("activate", () => {
+  e.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== "cache1") {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
+
+self.addEventListener("fetch", () => {
+  e.respondWith(fetch(e.request)).catch(() => caches.match(e.request));
+});
